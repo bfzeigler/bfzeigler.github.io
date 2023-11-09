@@ -14,6 +14,12 @@ h1 {
 .assign img {
   width: 200px;
   padding: 10px;
+  border: 2px dotted darkmajenta;
+}
+a{
+  text-decoration: none;
+  color: darkmagenta; 
 }
 
+  
   
