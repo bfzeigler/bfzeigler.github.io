@@ -1,25 +1,45 @@
 body {
-  background-color: lightskyblue;
+  background-color: dodgerblue;
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
 }
 h1 {
-  color: crimson;
+  color: paleturquoise;
   text-align: center;
+  width: 100%;
+  display: block;
+}
+h1:hover{
+  color:darkblue;
+  text-align: center;
+  width: 100%;
+  display: block;
 }
 .assign {
+  background-color: paleturquoise;
   margin: 10px;
   padding: 10px;
-  background-color: plum;
+  border-radius: 20px;
+  width: 20%;
+  box-shadow: 8px 8px darkblue;
+  display: block;
 }
 .assign img {
   width: 200px;
   padding: 10px;
-  border: 2px dotted darkmajenta;
+  border: 2px solid dodgerblue;
+}
+.assign img:hover{
+  width: 200px;
+  margin: 10px;
+  border: 2px solid dodgerblue; 
 }
 a {
   text-decoration: none;
-  color: darkmagenta; 
+  color: black; 
 }
+
 
   
   
